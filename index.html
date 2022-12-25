@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+  <section class="pricing">
+    <div class="pricing__container">
+      <h1 class="pricing__title">
+        Our Pricing
+      </h1>
+      <div class="pricing__plan">
+        <span class="plan__annual">Annually</span>
+        <input type="checkbox" id="toggler" class="plan__toggle">
+        <span class="plan__mounth">Monthly</span>
+      </div>
+      <article class="pricing__types types--annual">
+        <section class="pricing__type type">
+          <h2 class="type__name">Basic</h2>
+          <h3 class="type__price">
+            <span class="price__dollar">&dollar;</span>
+            <span class="price__annual">19.99</span>
+            <span class="price__mounth">199.99</span>
+          </h3>
+          <ul class="type__features">
+            <li class="type__feature type__storage">500 GB Storage</li>
+            <li class="type__feature type__users">2 Users Allowed</li>
+            <li class="type__feature type__upto">Send up to 3 GB</li>
+          </ul>
+          <a href="#" class="type__btn btn">Learn More</a>
+        </section>
+        <section class="pricing__type pricing__type--preffered type">
+          <h2 class="type__name">Professional</h2>
+          <h3 class="type__price">
+            <span class="price__dollar">&dollar;</span>
+            <span class="price__annual">24.99</span>
+            <span class="price__mounth">249.99</span>
+          </h3>
+          <ul class="type__features">
+            <li class="type__feature type__storage">1 TB Storage</li>
+            <li class="type__feature type__users">5 Users Allowed</li>
+            <li class="type__feature type__upto">Send up to 10 GB</li>
+          </ul>
+          <a href="#" class="type__btn btn">Learn More</a>
+        </section>
+        <section class="pricing__type type">
+          <h2 class="type__name">Master</h2>
+          <h3 class="type__price">
+            <span class="price__dollar">&dollar;</span>
+            <span class="price__annual">39.99</span>
+            <span class="price__mounth">399.99</span>
+          </h3>
+          <ul class="type__features">
+            <li class="type__feature type__storage">2 TB Storage</li>
+            <li class="type__feature type__users">10 Users Allowed</li>
+            <li class="type__feature type__upto">Send up to 20 GB</li>
+          </ul>
+          <a href="#" class="type__btn btn">Learn More</a>
+        </section>
+      </article>
+    </div>
+  </section>
+
+</body>
+
+</html>
