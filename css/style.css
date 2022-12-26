@@ -17,7 +17,10 @@ html {
 	font-size: 15px;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	text-align: center;
 }
 
@@ -166,17 +169,18 @@ h1, h2, h3, h4 {
 	border-color: var(--lighter-gray-blue);
 }
 
-.types--annual .type .price__annual {
-	display: inline-block;
-}
-.types--annual .type .price__mounth {
+.pricing__plan:has(.plan__toggle:checked) + .pricing__types .price__annual {
 	display: none;
 }
-.types--mounth .type .price__annual {
-	display: none;
+.pricing__plan:has(.plan__toggle:checked) + .pricing__types .price__mounth {
+	display: block;
 }
-.types--mounth .type .price__mounth {
-	display: inline-block;
+
+.pricing__plan:has(.plan__toggle:not(:checked)) + .pricing__types	.price__annual {
+	display: block;
+}
+.pricing__plan:has(.plan__toggle:not(:checked))	+ .pricing__types	.price__mounth {
+	display: none;
 }
 
 @media screen and (min-width: 769px) {
