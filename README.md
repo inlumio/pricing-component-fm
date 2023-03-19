@@ -8,14 +8,16 @@
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
+- View the optimal layout for the component depending on their device's screen
+  size
 - Control the toggle with both their mouse/trackpad and their keyboard
 - **Bonus**: Complete the challenge with just HTML and CSS
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/news-homepage-qfnkf_0M2L)
-- Live Site URL: [GitHub Pages](https://inlumio.github.io/fm-news-homepage/)
+- Solution URL:
+  [Solution URL](https://www.frontendmentor.io/solutions/pricing-component-2-versions-htmlandcss-only-and-with-js-LRJWJ4J-gs)
+- Live Site URL: [GitHub Pages](https://inlumio.github.io/pricing-component-fm/)
 
 ## My process
 
